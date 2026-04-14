@@ -1,0 +1,34 @@
+# === Public repo: framework only ===
+# CLAUDE.md and .claude/commands/ are the public showcase.
+# All wiki content, raw sources, and Obsidian config stay local.
+
+# Raw sources — all content files (.gitkeep preserved by no extension)
+raw/**/*.md
+raw/**/*.pdf
+raw/**/*.png
+raw/**/*.jpg
+raw/**/*.jpeg
+raw/**/*.gif
+raw/**/*.webp
+raw/**/*.svg
+raw/**/*.csv
+raw/**/*.xlsx
+raw/**/*.xls
+
+# Wiki pages — all generated content (.gitkeep preserved by no extension)
+wiki/**/*.md
+
+# Obsidian configuration
+.obsidian/
+
+# Default Obsidian file
+Welcome.md
+
+# Claude Code session files
+.claude/scheduled_tasks.lock
+.claude/settings.local.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
